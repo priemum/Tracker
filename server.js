@@ -9,7 +9,7 @@ const socket = require('socket.io');
 const morgan = require('morgan');
 const path = require('path');
 const helmet = require('helmet')
-const _ = require("lodash");
+const _ = require("lodash"); 
 
 const { ensureAuthenticated } = require('./config/auth');
 const { allFriend } = require('./config/friend')
